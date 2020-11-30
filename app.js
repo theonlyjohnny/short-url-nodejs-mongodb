@@ -11,7 +11,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 
 mongoose
-  .connect('mongodb://theonlyjohnny-mongo:27017', {
+  .connect('mongodb://theonlyjohnny-mongo-production:27017', {
     dbName: 'url-shortner',
     useNewUrlParser: true,
     useUnifiedTopology: true,
